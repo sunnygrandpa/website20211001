@@ -34,11 +34,11 @@ ul {
 
 a:link {
 	color: #333;
-	background: #eee;
+	background: rgba(255, 255, 255, 0.164);
 }
 a:visited {
-	color: #ff0000;
-	background: #eee;
+	color: #000000;
+	background: rgba(238, 238, 238, 0);
 }
 
 /* This rule adds a nice style to our ampersands */
