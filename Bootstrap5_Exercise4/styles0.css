@@ -30,11 +30,13 @@ body{
 	font: 12px Arial, Helvetica, sans-serif;
 	color: #666666;
 	font-weight: normal;
-	background: url(images/bg2.jpg);
+	background: #4f4f4f url(images/bg2.jpg);
 	height: 100%;
 }
 
-
+p{
+	padding-bottom: 12px;
+}
 
 a{
 	color: #970000;
@@ -48,6 +50,7 @@ a:hover{
 
 .as-bg{
 	background: url(images/bg.jpg) no-repeat center top;
+	background-attachment:fixed;
 	min-height: 100%;
 }
 
@@ -168,16 +171,38 @@ a:hover{
 	padding: 24px 0;
 }
 
+.as-two-column .as-left, .as-two-column .as-right{
+	width: 47%;
+	float: left;
+}
+
+.as-two-column .as-right{
+	width: 47%;
+	float: right;
+}
 
 /*last box*/
 
+.as-last-box{
+
+}
 
 .as-last-box .as-title-column{
 	padding-left: 38px;
 }
 
+.as-three-columns{
 
+}
 
+.as-three-columns .as-left, .as-three-columns .as-center, .as-three-columns .as-right{
+	width: 325px;
+	float: left;
+}
+
+.as-three-columns .as-center{
+	padding: 0 20px;
+}
 
 .as-last-top{
 	height: 21px;
